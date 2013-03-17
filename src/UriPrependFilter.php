@@ -6,6 +6,9 @@ use Assetic\Asset\AssetInterface;
  * UriRewriteFilter is a rewrite and port of the popular CssUriRewrite class written by Steve Clay.
  * Original source can be found by following the links below.
  *
+ * This filter is based on the UriRewriteFilter from jasonlewis' Basset:
+ * https://github.com/jasonlewis/basset/blob/master/src/Basset/Filter/UriRewriteFilter.php
+ *
  * @author    Steve Clay
  * @link      <https://github.com/mrclay/minify>
  * @license   <https://github.com/mrclay/minify/blob/master/LICENSE.txt>
