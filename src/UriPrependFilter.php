@@ -33,6 +33,17 @@ class UriPrependFilter implements FilterInterface {
     }
 
     /**
+     * Set the prepend path.
+     *
+     * @param  string  $path    The path to prepend
+     * @return void
+     */
+    public function setPrepend($path)
+    {
+        $this->path = $path;
+    }
+
+    /**
      * Apply filter on file load.
      *
      * @param  Assetic\Asset\AssetInterface  $asset
