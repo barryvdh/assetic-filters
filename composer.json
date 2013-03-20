@@ -9,33 +9,12 @@
     ],
     "require": {
         "php": ">=5.3.1",
-        "kriswallsmith/assetic": "1.*",
-        "mrclay/minify": "dev-master"
+        "kriswallsmith/assetic": "1.*"
     },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "mrclay/minify",
-                "version": "dev-master",
-                "dist": {
-                    "url": "https://github.com/mrclay/minify/archive/master.zip",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/mrclay/minify",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "classmap": [ "min/lib/" ]
-                }
-            }
-        }
-    ],
     "autoload": {
         "classmap": [
-            "src"
+            "src",
+            "lib"
         ]
     },
     "minimum-stability": "dev"
