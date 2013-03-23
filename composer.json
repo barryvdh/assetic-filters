@@ -9,12 +9,12 @@
     ],
     "require": {
         "php": ">=5.3.1",
-        "kriswallsmith/assetic": "1.*"
+        "kriswallsmith/assetic": "1.*",
+        "mrclay/minify": "*"
     },
     "autoload": {
         "classmap": [
-            "src",
-            "lib"
+            "src"
         ]
     },
     "minimum-stability": "dev"
